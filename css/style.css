@@ -217,11 +217,11 @@ textarea.form-control { height: inherit; }
 
 .testimony .author { color: #000; text-transform: uppercase; letter-spacing: .2em; }
 
-.work-detail { margin-bottom: 50px; }
+.Portfolio-detail { margin-bottom: 50px; }
 
-.work-detail .caption { display: block; text-transform: uppercase; font-size: 15px; color: #ccc; }
+.Portfolio-detail .caption { display: block; text-transform: uppercase; font-size: 15px; color: #ccc; }
 
-.work-detail strong { font-weight: normal; color: #000; }
+.Portfolio-detail strong { font-weight: normal; color: #000; }
 
 .custom-pagination { width: 100%; text-align: center; display: inline-block; }
 
