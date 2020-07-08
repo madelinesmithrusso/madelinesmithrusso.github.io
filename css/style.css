@@ -129,7 +129,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project figure, .post figure { margin: 0; position: relative; }
 
-.project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(209, 226, 196, 0.9); visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
+.project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover {width: 500px; height: 500px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(209, 226, 196, 0.9); visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
 .project .project-hover .project-hover-inner, .project .project-hover .post-hover-inner, .project .post-hover .project-hover-inner, .project .post-hover .post-hover-inner, .post .project-hover .project-hover-inner, .post .project-hover .post-hover-inner, .post .post-hover .project-hover-inner, .post .post-hover .post-hover-inner { position: absolute; z-index: 99; left: 50%; top: 50%; visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); transition: .3s all ease; text-align: center; }
 
@@ -303,3 +303,24 @@ textarea.form-control { height: inherit; }
 .block-38 .block-38-header .block-38-subheading { color: #b3b3b3; margin: 0 0 20px 0; text-transform: uppercase; font-size: 15px; }
 
 .block-38 .block-38-header img { width: 90px; border-radius: 50%; margin-bottom: 20px; }
+
+.thumbnail {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
