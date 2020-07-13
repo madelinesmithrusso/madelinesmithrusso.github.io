@@ -87,9 +87,9 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 @media (max-width: 991.98px) { .templateux-hero h1, .intro h1 { font-size: 36px; } }
 
-.templateux-portfolio-overlap { position: relative; margin-top: -100px; }
+.templateux-portfolio-overlap { position: relative; margin-top: -200px; }
 
-@media (max-width: 991.98px) { .templateux-portfolio-overlap { margin-top: -50px; } }
+@media (max-width: 991.98px) { .templateux-portfolio-overlap { margin-top: -200px; } }
 
 .container-fluid { padding-left: 50px; padding-right: 50px; max-width: 1600px; }
 
@@ -303,24 +303,3 @@ textarea.form-control { height: inherit; }
 .block-38 .block-38-header .block-38-subheading { color: #b3b3b3; margin: 0 0 20px 0; text-transform: uppercase; font-size: 15px; }
 
 .block-38 .block-38-header img { width: 90px; border-radius: 50%; margin-bottom: 20px; }
-
-.thumbnail {
-  position: relative;
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
-}
-.thumbnail img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
-}
-.thumbnail img.portrait {
-  width: 100%;
-  height: auto;
-}
